@@ -4,7 +4,6 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store'
-import 'semantic-ui-sass';
 
 
 Vue.config.productionTip = false
