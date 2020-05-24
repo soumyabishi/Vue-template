@@ -5,7 +5,8 @@
 [Element](http://element.eleme.io/) +
 [Pug](https://pugjs.org/) +
 [Sass](http://sass-lang.com/) +
-[Yarn](https://yarnpkg.com/)
+[Yarn](https://yarnpkg.com/) +
+[Fomantic UI SCSS](https://github.com/fomantic/Fomantic-UI-SASS)
 
 This gives you 4 additional
 [vue-cli](https://github.com/vuejs/vue-cli) options:
@@ -45,9 +46,8 @@ These tools make Vue app development easier:
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It is recommended to use npm 3+ for a more efficient dependency tree.**
 
 ``` bash
-$ npm install -g vue-cli
-$ vue init JanCVanB/vue-webpack-template-plus my-project
-$ cd my-project
+$ git clone https://github.com/soumyabishi/gleac.git
+$ cd gleac
 $ yarn
 $ npm run dev
 ```
@@ -82,11 +82,3 @@ The development server will run on port 8080 by default. If that port is already
 
 - `npm run theme`: Regenerate Element component styles in `theme/` from `element-variables.css`
   - See element-theme documentation: [here](http://element.eleme.io/#/en-US/component/custom-theme)
-
-### Fork It And Make Your Own
-
-You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
-
-``` bash
-vue init GitHubUsername/repo my-project
-```
