@@ -6,7 +6,8 @@
 [Pug](https://pugjs.org/) +
 [Sass](http://sass-lang.com/) +
 [Yarn](https://yarnpkg.com/) +
-[Semantic UI SCSS](https://github.com/aniftyco/semantic-ui-sass)
+[Semantic UI SCSS](https://github.com/aniftyco/semantic-ui-sass) +
+[Tailwind](https://tailwindcss.com/)
 
 This gives you 4 additional
 [vue-cli](https://github.com/vuejs/vue-cli) options:
