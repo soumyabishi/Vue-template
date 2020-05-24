@@ -24,8 +24,14 @@ exports.cssLoaders = function (options) {
   var postcssLoader = {
     loader: 'postcss-loader',
     options: {
-      sourceMap: options.sourceMap
-    }
+      ident: 'postcss',
+      sourceMap: options.sourceMap,
+      plugins: [
+        require('tailwindcss'),
+        require('tailwindcss')('./tailwind.config.js'),
+        require('autoprefixer'),
+      ],
+    },
   }
 
   // generate loader string to be used with extract text plugin

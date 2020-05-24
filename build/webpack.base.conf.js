@@ -32,23 +32,7 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue-loader',
-        options: vueLoaderConfig
-      },
-      {
-        test: /\.css$/,
-        use: [
-          {
-            loader: 'postcss-loader',
-            options: {
-              ident: 'postcss',
-              plugins: [
-                require('tailwindcss'),
-                require('tailwindcss')('./tailwind.config.js'),
-                require('autoprefixer'),
-              ],
-            },
-          }
-        ]
+        options: vueLoaderConfig,
       },
       {
         test: /\.js$/,

@@ -6,6 +6,8 @@ import router from './router'
 import store from './store'
 
 
+import '../src/assets/css/tailwind.css';
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
